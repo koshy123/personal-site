@@ -1,0 +1,40 @@
+Selector{
+	Property: value;
+}
+
+*{
+	text-align: left;
+}
+p{
+	border: 5px solid rgba(255,176,170,.05);
+}
+html{
+	background-image: url(Real one.jpg);
+	background-size: cover;
+	}
+h1 p{
+	text-align: right;
+	}		
+h1 > p{
+		text-align: center;
+	border: 5px dashed blue;
+}
+
+body{
+	color: rgb(0,100,100);
+	}
+	.webtext{
+	border-left-style: groove;
+	line-height: 5px;
+			}
+#div1{
+	background: rgba(0,0,255,.1); 
+}
+#div2{
+	background: rgba(0,255,0,.1); 
+}
+img{float: left;}
+footer{
+	clear: both;
+	text-align: left;
+	}
