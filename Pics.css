@@ -22,3 +22,7 @@ img{
 	flex-direction: column;
 	border: blue solid 5px;
 }
+.grid{
+	display: grid;
+	grid-template-columns: 500px 300px;
+	}
