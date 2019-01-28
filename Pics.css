@@ -15,14 +15,20 @@ img{
 	height: 1000px;
 	margin: 50px;
 }
-.cute{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	flex-direction: column;
+.food{
 	border: blue solid 5px;
+}
+
+.fun{
+	border: purple solid 5px;
+}
+
+.selfie{
+	border: pink solid 5px;
 }
 .grid{
 	display: grid;
-	grid-template-columns: 500px 300px;
-	}
+	grid-gap: 20px;
+	grid-template-columns: 300px 300px 300px;
+	border: blue solid 5px;
+}
