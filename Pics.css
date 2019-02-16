@@ -1,0 +1,48 @@
+html{
+	background-image: url(Health.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+h1{
+	color: blue;
+	text-align: center;
+}
+
+img{
+	width: 200px;
+	height: 350px;
+	margin: 50px;
+}
+.food{
+	border: blue solid 5px;
+	margin: 50px 25px;
+	grid-column: 1/1;
+}
+
+.fun{
+	border: purple solid 5px;
+	margin: 50px 25px;
+}
+
+.selfie{
+	border: pink solid 5px;
+	margin: 50px 25px;
+}
+
+.grid{
+	border: blue solid 5px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-template-rows:1fr 1fr 1fr| ;
+	grid-gap: 50px;
+	grid-column-gap: 25px;
+
+}
+
+.grid:hover{
+	transform: 20px;
+
+	
+}
