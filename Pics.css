@@ -35,9 +35,10 @@ img{
 	border: blue solid 5px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr; 
-	grid-template-rows:1fr 1fr 1fr| ;
+	grid-template-rows:1fr 1fr 1fr;
 	grid-gap: 50px;
 	grid-column-gap: 25px;
+	
 
 }
 
