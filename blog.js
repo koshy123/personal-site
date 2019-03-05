@@ -30,11 +30,35 @@ button.addEventListener("click",addListAfterClick);
 
 button.addEventListener("keypress", addItemAfterPress);
 
+function liClick(){
+	this.classList.toggle("done")
+}
+
 var list=document.getElementsByTagName("li");
 for (var i = 0; i < list.length; i++) {
 	list[i].addEventListener("click",liClick)
 }
 
-function liClick(){
-	this.classList.toggle("done")
+
+
+
+
+var css = document.querySelector("h3");
+var color1 =document.querySelector(".color1");
+var color2 =document.querySelector(".color2");
+var body = document.getElementById("gradient");
+
+function setGradient(){
+	body.style.background =
+	"linear-gradient(to right," 
+	+ color1.value 
+	+ "," 
+	+ color2.value 
+	+")";
 }
+
+color1.addEventListener("input", setGradient);
+color2.addEventListener("input", setGradient);
+
+
+
