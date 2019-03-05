@@ -130,6 +130,8 @@ p a{
 .banner img{
 	height:500px;
 	width:800px;
+	display: flex;
+	justify-content: center;
 }
 div p{
 	display: flex;

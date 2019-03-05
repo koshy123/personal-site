@@ -1,3 +1,7 @@
 body{
 	background: pink;
 }
+
+.done {
+  text-decoration: line-through;
+}

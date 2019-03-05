@@ -15,35 +15,19 @@ img{
 	height: 350px;
 	margin: 50px;
 }
-.food{
-	border: blue solid 5px;
-	margin: 50px 25px;
-	grid-column: 1/1;
-}
 
 .fun{
-	border: purple solid 5px;
-	margin: 50px 25px;
+	width:800px ;
+	height:500px;
+	display: flex;
 }
 
-.selfie{
-	border: pink solid 5px;
-	margin: 50px 25px;
-}
-
-.grid{
-	border: blue solid 5px;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr; 
-	grid-template-rows:1fr 1fr 1fr;
-	grid-gap: 50px;
-	grid-column-gap: 25px;
-	
-
-}
 
 .grid:hover{
 	transform: 20px;
+}
 
-	
+.yup{
+	height: 800px;
+	width:700px;
 }
